@@ -1,0 +1,108 @@
+body {
+	font-family: Arial, sans-serif;	<!-- this will be the default font for the entire page -->
+	margin: 0;	<!-- margin is to seperate the elements from other elements -->
+	padding: 0;	<!-- padding is for the space surrounding the content on all sides -->
+	background-color: white;
+}
+/* Header Styles */
+header {
+	padding: 10px;
+}
+
+/* Logo Container Styles */
+.logo-container {	
+	text-align: center;
+	margin: 20px;
+}
+
+/* Form Styles */
+form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+form h2 {
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+form button {
+	width: 25%;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: green;
+	color: white;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 10px;
+	display: block;
+}
+
+/* Styles for the link inside the button */
+form button a {
+    color: white;
+    text-decoration: none; 
+}
+
+/* Navbar Styles */
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+.navbar a {
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+/* Signup button to the right of the nav bar */
+#signup {
+	color: white;
+	padding: 10px;
+	margin-left: auto;
+}
+
+/* Footer Styles */
+footer {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	clear: both;
+	margin-top: 20px;
+}
+	
+.contact-details {
+	margin-bottom: 20px;
+}
+
+.contact-details p {
+	margin: 5px 0;
+}
+
+.social-media a {
+color: white;
+margin 0 10px;
+text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: none;
+}
+

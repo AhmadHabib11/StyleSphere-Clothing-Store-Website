@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; 
+}
+
+header {
+    padding: 10px;
+}
+
+.logo-container {
+    text-align: right;
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px;
+}
+
+#signup {
+    color: white;
+    padding: 10px;
+    margin-left: auto;
+}
+
+
+.main-content .logo {
+    width: 150px; 
+    height: auto;
+}
+
+.main-content .visual-container {
+    display: flex; 
+    justify-content: space-around; /* Add space between images */
+    flex-wrap: wrap; /* Wrap images to the next line */
+    margin-top: 20px; /* Add some space above the images */
+}
+
+.main-content .visual {
+    max-width: 45%; /* Set the maximum width of each image */
+    height: auto;
+    margin-bottom: 20px; /* Add some space below each image */
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    margin-top: 20px;
+}
+
+.contact-details {
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: none;
+}
+
+

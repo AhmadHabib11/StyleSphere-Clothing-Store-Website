@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="paymentstylesheet.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">	<!-- this creates a navigation bar, which conatins the links to various sections of the website, basically it allows to move through different sections of the website -->
+      <a href="homepage.html">Home</a>
+      <a href="men.html">Men</a>
+      <a href="women.html">Women</a>
+      <a href="accessories.html">Accessories</a>
+      <a href="signupPage.html" id="signup">Sign up</a>
+      <a href="index.html" id="login">Login</a>
+    </nav>
+</header>
+
+    <div class="main-content">
+    <div class="container">
+    <h2>Payment Information</h2>
+
+	<!-- Payment form" -->
+        <form action="placeOrder.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="address">Shipping Address:</label>
+        <textarea id="address" name="address"></textarea>
+
+	<!-- Payment method dropdown -->
+        <label for="paymentMethod">Payment Method:</label>
+        <select id="paymentMethod" name="paymentMethod">
+        <option value="creditCard">Credit Card</option>
+        <option value="cashondelivery">Cash on Delivery</option> 
+        </select>
+
+	<!-- Credit card details section -->
+	<div class="credit-card-details">
+                <label for="cardNumber">Credit Card Number:</label>
+                <input type="text" id="cardNumber" name="cardNumber">
+
+                <label for="expiryDate">Expiry Date:</label>
+                <input type="text" id="expiryDate" name="expiryDate">
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv">
+        </div>
+	<!-- Submit button (linking to homepage.html) -->
+        <button type="submit"><a href="homepage.html">Place Order</button>
+      	</form>
+    	</div>
+  	</div>
+
+
+</body>
+
+</html>

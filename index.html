@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">	<!-- specifying the language attribute as English -->
+
+<head>
+    <title>Login Page</title>	<!-- title of the webpage -->
+    <link rel="stylesheet" href="stylesheet.css">	<!-- this is to link the css stylesheet for styling of the webpage -->
+</head>
+
+<body>
+<header>
+    <nav class="navbar">	<!-- this creates a navigation bar, which conatins the links to various sections of the website, basically it allows to move through different sections of the website -->
+      <a href="homepage.html">Home</a>
+      <a href="men.html">Men</a>
+      <a href="women.html">Women</a>
+      <a href="accessories.html">Accessories</a>
+      <a href="signupPage.html" id="signup">Sign up</a>
+      <a href="index.html" id="login">Login</a>
+    </nav>
+</header>
+
+	<div class="logo-container">	<!-- it serves as a container for the logo and the login form, providing a way to apply styles specifically to these elements -->
+	<img src="SS.png" alt"SS" style="width: 300px; height: auto; 	margin-bottom: 20px;">	<! this is to display the image of my logo, alt is used to provide an alternative text when the image is not loaded correctly. moreover to adjust the logo and its positions, we have used some inline styling. --> 
+<form>	<! this is to create a form for login page. -->
+	<h2>Already a member? Login to avail exclusive discounts</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button class="button"><a href="homepage.html">Login</a></button>
+</form>
+
+</div>
+	
+
+
+</body>
+
+</html>
